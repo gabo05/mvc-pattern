@@ -24,8 +24,60 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section><h1>El Patron MVC</h1></section>
+					<section>
+						<h2>¿Qu&eacute; es?</h2>
+						<p>Es un patr&oacute;n de arquitectura de software que utiliza 3 componentes, el <strong>Modelo</strong>, la <strong>Vista</strong> y el <strong>Controlador</strong></p>
+					</section>
+					<section>
+						<h2>¿Qu&eacute; hace?</h2>
+						<p>Separa la l&oacute;gica del negocio de la l&oacute;gica de la interfaz de usuario</p>
+					</section>
+					<section>
+						<h2>Ventajas</h2>
+						<ul>
+							<li>Reutilizaci&oacute;n</li>
+							<li>Facilita la actualizaci&oacute;n de los componentes por separado</li>
+							<li>Escalabilidad</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section><h2>El Modelo</h2></section>
+					<section><p>Se encarga de la gestion de la informacion en la aplicaci&oacute;n</p></section>
+					<section>
+						<ul>
+							<li>Almacenamiento de datos</li>
+							<li>Conexiones a BD</li>
+							<li>Consultas</li>
+							<li>Actualizaci&oacute;n de los datos</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section><h2>La Vista</h2></section>
+					<section>
+						<p>Representaci&oacute;n gr&aacute;fica de los datos</p>
+					</section>
+					<section>
+						<ul>
+							<li>Comunicaci&oacute;n con el usuario</li>
+							<li>Muestra el estado actual de los datos</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+						<section><h2>El Controlador</h2></section>
+						<section><p>Contiene la l&oacute;gica de la aplicaci&oacute;n</p></section>
+						<section>
+							<ul>
+								<li>Comunica al modelo con la vista</li>
+								<li>Decide que vista mostrar seg&uacute;n las peticiones del usuario(ruteo)</li>
+								<li>Ejecuta las ordenes del usuario</li>
+							</ul>
+						</section>
+				</section>
 			</div>
 		</div>
 
